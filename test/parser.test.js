@@ -6,7 +6,7 @@ import parse from '../src/parser'
 describe('parser', () => {
   describe('example', () => {
     it('parses when it should', () => {
-      expect(parse('aaabbb')).to.deep.equal(['a', ['a', ['a', null, 'b'], 'b'], 'b'])
+      expect(parse('true')).to.equal(1)
     })
 
     it('fails when it should', () => {
