@@ -72,6 +72,7 @@
     "no-extend-native": "off",
     "no-multi-str": "off",
     "spaced-comment": "off",
-    "no-with": "off"
+    "no-with": "off",
+    "prefer-const": "off"
   }
 }
